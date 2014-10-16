@@ -96,21 +96,55 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* 144955, f14c38, f4f1e0, fff */
+
+body {
+    background: #f4f1e0;
+    margin-top: 13%;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4em;
+    letter-spacing: inherit;
+    color: #144955;
+
+    text-align: center;
+    margin: 0.67em 0 0.50em 0;    
+}
+
+h1.font-effect-destruction {
+    color: #144955;
+}
 
 
 
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 
+    font-size: 1.3em;
+}
 
+.manchet {
+    font-size: 1.8em;
+}
 
+.centered {
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
+a:link, a:visited {
+    color: #144955;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    color: #f14c38;
+}
 
 
 /* ==========================================================================
